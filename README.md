@@ -61,7 +61,7 @@ In this assignment, we are tasked with creating a fully functional frontend for 
    ````bash
    npm install
    ````
-4. Run the server\
+4. Run the server
       ````bash
    npm run dev
    ````
