@@ -18,7 +18,7 @@ const Users = () => {
     <div className="w-4/5 mx-auto bg-white py-5">
       <h2 className="text-2xl font-bold text-slate-800 mb-4">User Details</h2>
       
-      <div className="overflow-x-auto"> {/* Make the table scrollable on small screens */}
+      <div className="overflow-x-auto"> 
         <table className="min-w-full bg-white border border-gray-300">
           <thead>
             <tr className="bg-gray-100">
