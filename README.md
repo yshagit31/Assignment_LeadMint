@@ -1,7 +1,7 @@
 # Frontend Web Application Assignment
 
 ## Screenshots
-![Application Screenshot](assets/homepage.png)
+![Application Screenshot](src/assets/homepage.png)
 
 ## Introduction
 In this assignment, we are tasked with creating a fully functional frontend for a web application using Ripple UI components. We will design three core pages: a login page, a registration page, and a home page. The login and registration pages will have basic input validation, while the home page will showcase dynamic content using cards and graphs. The goal is to create an intuitive, responsive, and visually appealing user interface, ensuring a seamless user experience.
