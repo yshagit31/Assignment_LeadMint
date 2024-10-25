@@ -1,7 +1,7 @@
 # Frontend Web Application Assignment
 
 ## Introduction
-In this assignment, you are tasked with creating a fully functional frontend for a web application using Ripple UI components. You will design three core pages: a login page, a registration page, and a home page. The login and registration pages will have basic input validation, while the home page will showcase dynamic content using cards and graphs. The goal is to create an intuitive, responsive, and visually appealing user interface, ensuring a seamless user experience.
+In this assignment, we are tasked with creating a fully functional frontend for a web application using Ripple UI components. We will design three core pages: a login page, a registration page, and a home page. The login and registration pages will have basic input validation, while the home page will showcase dynamic content using cards and graphs. The goal is to create an intuitive, responsive, and visually appealing user interface, ensuring a seamless user experience.
 
 ## Project Structure
 - `src/`: Contains all the source code.
@@ -9,6 +9,9 @@ In this assignment, you are tasked with creating a fully functional frontend for
     - `Login.jsx`: The login page component.
     - `Register.jsx`: The registration page component.
     - `Home.jsx`: The home page component.
+    - `Analytics.jsx`: The analytics.
+    - `Transactions.jsx`: The transactions done displayed.
+    - `Users.jsx`: The users info displayed.
   - `App.js`: The main application component that defines the routes.
 
 ## Pages Overview
@@ -34,9 +37,6 @@ In this assignment, you are tasked with creating a fully functional frontend for
   - Graphs to visualize data using available Ripple UI components.
 - **Expected Output**: A fully styled home page featuring a navigation bar, cards, and data graphs using Ripple UI. The layout should be responsive and user-friendly.
 
-## Tech Stack
-- **React.js**: A JavaScript library for building user interfaces.
-- **Ripple UI**: A lightweight component library for modern and responsive UI elements. You can explore it [here](https://www.ripple-ui.com).
 
 ## Routing
 - **`/`**: This route renders the registration page.
@@ -48,4 +48,17 @@ In this assignment, you are tasked with creating a fully functional frontend for
 ### Installation
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone  https://github.com/yshagit31/Assignment_LeadMint
+   ```
+2. Navigate into the project directory:
+   ```bash
+     cd <project-directory>
+    ````
+3. Install dependencies:
+   ````bash
+   npm install
+   ````
+4. Run the server\
+      ````bash
+   npm run dev
+   ````
