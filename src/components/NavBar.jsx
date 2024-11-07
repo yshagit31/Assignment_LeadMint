@@ -16,7 +16,7 @@ function classNames(...classes) {
 
 const NavBar = () => {
   return (
-    <Disclosure as="nav" className="bg-slate-100 md:bg-slate-50 h-full">
+    <Disclosure as="nav" className="bg-slate-100 md:bg-slate-50 max-h-full max-w-full">
       {({ open }) => (
         <>
           {/* Desktop Navigation */}
