@@ -62,18 +62,17 @@ const Analytics = () => {
   };
 
   return (
-    <div className="w-4/5 mx-auto bg-white">
-      <div className="flex justify-between items-center mb-5">
+    <div className="w-3/5 mx-auto p-0 lg:p-4 bg-white">
+      <div className="flex justify-between items-center mb-3 sm:mb-5">
         <h2 className="text-2xl font-bold text-slate-800">Analytics</h2>
         <input
           type="text"
           placeholder="Select Data Range"
-          className="border bg-slate-50 border-gray-300 rounded-lg p-2 w-1/3"
+          className="border bg-slate-50 border-gray-300 rounded-lg sm:p-2 w-2/5 sm:w-1/3"
         />
       </div>
-      
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-3 mb-5">
-        <div className="border border-gray-300 rounded-lg p-3 relative h-24">
+      <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-3 sm:mb-5">
+        <div className="border border-gray-300 rounded-lg p-3 relative h-24 text-xs sm:text-base">
           <h4 className="font-semibold text-left mb-1 text-blue-800 pl-8">Total Users</h4>
           <FaUsers className="absolute top-2 left-3 text-blue-600" size={24} />
           <p className="text-xl absolute bottom-1 right-3 text-blue-800 p-2">140</p>
@@ -104,10 +103,101 @@ const Analytics = () => {
           <p className="text-xl absolute bottom-1 right-3 text-orange-800 p-2">72,999</p>
         </div>
       </div>
-      
-      <div className="mx-auto h-96">
+      <div className="h-96 mb-5">
         <h4 className='text-slate-600'>User Statistics Line Chart</h4>
         <Line data={userData} options={options} height={300} />
+      </div>
+      <div className="flex flex-wrap xl:flex-nowrap w-full justify-center gap-4 lg:my-14">
+  <div className="card max-w-full items-center justify-center bg-white text-black lg:p-10 border mt-4 pt-3 rounded">
+    <div className="text-xl">Today Top Referral Users</div>   
+    <div className="flex w-full overflow-x-auto">
+      <table className="table bg-white border-gray-50">
+        <tbody>
+        <tr className="even:bg-gray-50 odd:bg-white">
+            <th>Type</th>
+            <th>Where</th>
+            <th>Description</th>
+            <th>Amount</th>
+          </tr> 
+          <tr className="even:bg-gray-50 odd:bg-white">
+            <th>1</th>
+            <td>Cy Ganderton</td>
+            <td>Quality Control Specialist</td>
+            <td>Blue</td>
+          </tr>
+          <tr className="even:bg-gray-50 odd:bg-white">
+            <th>2</th>
+            <td>Hart Hagerty</td>
+            <td>Desktop Support Technician</td>
+            <td>Purple</td>
+          </tr>
+          <tr className="even:bg-gray-50 odd:bg-white">
+            <th>3</th>
+            <td>Brice Swyre</td>
+            <td>Tax Accountant</td>
+            <td>Red</td>
+          </tr>
+          <tr className="even:bg-gray-50 odd:bg-white">
+            <th>3</th>
+            <td>Brice Swyre</td>
+            <td>Tax Accountant</td>
+            <td>Red</td>
+          </tr>
+          <tr className="even:bg-gray-50 odd:bg-white">
+            <th>3</th>
+            <td>Brice Swyre</td>
+            <td>Tax Accountant</td>
+            <td>Red</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+  <div className="card max-w-full items-center justify-center bg-white text-black lg:p-10 border mt-4 pt-3 rounded">
+    <div className="text-xl">Today Top Referral Users</div>   
+    <div className="flex w-full overflow-x-auto">
+      <table className="table bg-white border-gray-50">
+        <tbody>
+        <tr className="even:bg-gray-50 odd:bg-white">
+            <th>Type</th>
+            <th>Where</th>
+            <th>Description</th>
+            <th>Amount</th>
+          </tr> 
+          <tr className="even:bg-gray-50 odd:bg-white">
+            <th>1</th>
+            <td>Cy Ganderton</td>
+            <td>Quality Control Specialist</td>
+            <td>Blue</td>
+          </tr>
+          <tr className="even:bg-gray-50 odd:bg-white">
+            <th>2</th>
+            <td>Hart Hagerty</td>
+            <td>Desktop Support Technician</td>
+            <td>Purple</td>
+          </tr>
+          <tr className="even:bg-gray-50 odd:bg-white">
+            <th>3</th>
+            <td>Brice Swyre</td>
+            <td>Tax Accountant</td>
+            <td>Red</td>
+          </tr>
+          <tr className="even:bg-gray-50 odd:bg-white">
+            <th>3</th>
+            <td>Brice Swyre</td>
+            <td>Tax Accountant</td>
+            <td>Red</td>
+          </tr>
+          <tr className="even:bg-gray-50 odd:bg-white">
+            <th>3</th>
+            <td>Brice Swyre</td>
+            <td>Tax Accountant</td>
+            <td>Red</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
       </div>
     </div>
   );

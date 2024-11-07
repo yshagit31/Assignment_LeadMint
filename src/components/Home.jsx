@@ -8,9 +8,9 @@ import Transactions from './Transactions';
 const Home = () => {
   
     return (
-        <div className="bg-white lg:max-h-screen flex">
+        <div className="bg-white lg:min-h-screen flex">
         <NavBar />    
-        <div className="flex-grow p-5">
+        <div className="flex-grow p-0 lg:p-5 w-full">
           <Routes>
             <Route path="/" element={<Analytics />}></Route>
             <Route path="/users" element={<Users />} />
