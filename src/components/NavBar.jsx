@@ -20,7 +20,7 @@ const NavBar = () => {
       {({ open }) => (
         <>
           {/* Desktop Navigation */}
-          <div className="hidden md:flex flex-col items-start w-1/6 h-screen bg-slate-50 gap-10">
+          <div className="hidden md:flex flex-col items-start w-2/5 h-screen bg-slate-50 gap-10">
             <div>
               <h1 className="text-xl font-bold text-gray-800 pl-4">Apprezest</h1>
             </div>
@@ -37,7 +37,7 @@ const NavBar = () => {
               ))}
             </div>
             <footer className="w-full mt-auto text-gray-800">
-              <hr className="border-gray-400 w-full" />
+              <hr className="border-gray-400 w-52" />
               <div className="flex gap-4 p-4">
                 <img src={logo} className='w-10 rounded-full' alt="profile" />
                 <span className='pt-2'>Shashank</span>
@@ -76,7 +76,7 @@ const NavBar = () => {
               ))}
             </div>
             <footer className="w-full mt-auto text-gray-800">
-              <hr className="border-gray-400 w-full" />
+              <hr className="border-gray-400" />
               <div className="flex gap-4 p-4">
                 <img src={logo} className='w-10 rounded-full' alt="profile" />
                 <span className='pt-2'>Shashank</span>
