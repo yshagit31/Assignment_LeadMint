@@ -47,7 +47,7 @@ const Login = () => {
         if (!value) {
             setErrors((prev) => ({ ...prev, password: 'Password is required.' }));
         } else if (!validatePassword(value)) {
-            setErrors((prev) => ({ ...prev, password: 'Password must be at least 8 characters long' }));
+            setErrors((prev) => ({ ...prev, password: 'Please enter a valid password' }));
         } else {
          
             setErrors((prev) => ({ ...prev, password: '' }));
@@ -89,7 +89,7 @@ const Login = () => {
     };
 
     return (
-        <div className="mx-auto flex w-full h-screen justify-center max-w-sm flex-col gap-6">
+        <div className="mx-auto flex w-full h-screen justify-center max-w-sm flex-col gap-6 text-white">
             <div className="flex flex-col items-center">
                 <h1 className="text-3xl font-semibold">Sign In</h1>
                 <p className="text-sm">Sign in to access your account</p>
