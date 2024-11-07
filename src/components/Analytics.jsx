@@ -103,7 +103,7 @@ const Analytics = () => {
           <p className="text-xl absolute bottom-1 right-3 text-orange-800 p-2">72,999</p>
         </div>
       </div>
-      <div className="h-96 mb-5">
+      <div className="h-80 sm:h-96 mb-5 mt-4">
         <h4 className='text-slate-600'>User Statistics Line Chart</h4>
         <Line data={userData} options={options} height={300} />
       </div>
@@ -117,37 +117,36 @@ const Analytics = () => {
             <th>Type</th>
             <th>Where</th>
             <th>Description</th>
-            <th>Amount</th>
+    
           </tr> 
           <tr className="even:bg-gray-50 odd:bg-white">
             <th>1</th>
             <td>Cy Ganderton</td>
             <td>Quality Control Specialist</td>
-            <td>Blue</td>
+     
           </tr>
           <tr className="even:bg-gray-50 odd:bg-white">
             <th>2</th>
             <td>Hart Hagerty</td>
             <td>Desktop Support Technician</td>
-            <td>Purple</td>
+    
           </tr>
           <tr className="even:bg-gray-50 odd:bg-white">
             <th>3</th>
             <td>Brice Swyre</td>
             <td>Tax Accountant</td>
-            <td>Red</td>
+          
           </tr>
           <tr className="even:bg-gray-50 odd:bg-white">
             <th>3</th>
             <td>Brice Swyre</td>
             <td>Tax Accountant</td>
-            <td>Red</td>
+ 
           </tr>
           <tr className="even:bg-gray-50 odd:bg-white">
             <th>3</th>
             <td>Brice Swyre</td>
             <td>Tax Accountant</td>
-            <td>Red</td>
           </tr>
         </tbody>
       </table>
@@ -162,37 +161,37 @@ const Analytics = () => {
             <th>Type</th>
             <th>Where</th>
             <th>Description</th>
-            <th>Amount</th>
+          
           </tr> 
           <tr className="even:bg-gray-50 odd:bg-white">
             <th>1</th>
             <td>Cy Ganderton</td>
             <td>Quality Control Specialist</td>
-            <td>Blue</td>
+      
           </tr>
           <tr className="even:bg-gray-50 odd:bg-white">
             <th>2</th>
             <td>Hart Hagerty</td>
             <td>Desktop Support Technician</td>
-            <td>Purple</td>
+      
           </tr>
           <tr className="even:bg-gray-50 odd:bg-white">
             <th>3</th>
             <td>Brice Swyre</td>
             <td>Tax Accountant</td>
-            <td>Red</td>
+         
           </tr>
           <tr className="even:bg-gray-50 odd:bg-white">
             <th>3</th>
             <td>Brice Swyre</td>
             <td>Tax Accountant</td>
-            <td>Red</td>
+      
           </tr>
           <tr className="even:bg-gray-50 odd:bg-white">
             <th>3</th>
             <td>Brice Swyre</td>
             <td>Tax Accountant</td>
-            <td>Red</td>
+    
           </tr>
         </tbody>
       </table>
