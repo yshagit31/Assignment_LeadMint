@@ -62,7 +62,7 @@ const Analytics = () => {
   };
 
   return (
-    <div className="w-3/5 sm:mx-auto p-0 lg:p-4 bg-white">
+    <div className="w-3/5 mx-auto p-0 lg:p-4 bg-white">
       <div className="flex justify-between items-center mb-3 sm:mb-5">
         <h2 className="text-2xl font-bold text-slate-800">Analytics</h2>
         <input
