@@ -89,7 +89,7 @@ const Login = () => {
     };
 
     return (
-        <div className="mx-auto flex w-full h-screen justify-center max-w-sm flex-col gap-6 text-white">
+        <div className="mx-auto flex w-full h-screen justify-center max-w-sm flex-col gap-6 text-white bg-slate-950">
             <div className="flex flex-col items-center">
                 <h1 className="text-3xl font-semibold">Sign In</h1>
                 <p className="text-sm">Sign in to access your account</p>
@@ -97,7 +97,7 @@ const Login = () => {
             <form onSubmit={handleSubmit}>
                 <div className="form-group">
                     <div className="form-field">
-                        <label className="form-label">Email address</label>
+                        <label className="form-label text-white">Email address</label>
                         <input
                             placeholder="Type here"
                             type="email"
@@ -112,7 +112,7 @@ const Login = () => {
                         )}
                     </div>
                     <div className="form-field">
-                        <label className="form-label">Password</label>
+                        <label className="form-label text-white">Password</label>
                         <div className="form-control">
                             <input
                                 placeholder="Type here"
