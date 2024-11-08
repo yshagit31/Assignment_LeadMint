@@ -62,7 +62,7 @@ const Analytics = () => {
   };
 
   return (
-    <div className=" mx-auto lg:p-4 bg-white">
+    <div className="mx-10 sm:mx-auto lg:p-4 bg-white">
         <div className="flex justify-between items-center mb-10 sm:mb-5">
           <h2 className="text-2xl font-bold text-slate-800">Analytics</h2>
           <input
@@ -71,7 +71,7 @@ const Analytics = () => {
             className="border bg-slate-50 border-gray-300 rounded-lg sm:p-2 w-2/5 sm:w-1/3"
           />
         </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-3 sm:mb-5">
+        <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-3 mx-10 sm:mx-0 sm:mb-5">
           <div className="border border-gray-300 rounded-lg p-3 relative h-24 text-xs sm:text-base">
             <h4 className="font-semibold text-left mb-1 text-blue-800 pl-8">Total Users</h4>
             <FaUsers className="absolute top-2 left-3 text-blue-600" size={24} />
@@ -110,52 +110,47 @@ const Analytics = () => {
       <div className="flex flex-wrap xl:flex-nowrap justify-center gap-4 ms-2 sm:ms-0 lg:my-14">
         <div className="card max-w-full items-center justify-center bg-white text-black lg:p-10 border mt-4 pt-3 rounded">
           <div className="text-xl">Today Top Referral Users</div>
-          <div className="flex w-full overflow-x-auto">
-            <table className="table bg-white border-gray-50">
-              <tbody>
-                <tr className="even:bg-gray-50 odd:bg-white text-gray-700">
-                  <th>Type</th>
-                  <th>Where</th>
-                  <th>Description</th>
-
-                </tr>
-                <tr className="even:bg-gray-50 odd:bg-white">
-                  <th>1</th>
-                  <td>Cy Ganderton</td>
-                  <td>Quality Control Specialist</td>
-
-                </tr>
-                <tr className="even:bg-gray-50 odd:bg-white">
-                  <th>2</th>
-                  <td>Hart Hagerty</td>
-                  <td>Desktop Support Technician</td>
-
-                </tr>
-                <tr className="even:bg-gray-50 odd:bg-white">
-                  <th>3</th>
-                  <td>Brice Swyre</td>
-                  <td>Tax Accountant</td>
-
-                </tr>
-                <tr className="even:bg-gray-50 odd:bg-white">
-                  <th>3</th>
-                  <td>Brice Swyre</td>
-                  <td>Tax Accountant</td>
-
-                </tr>
-                <tr className="even:bg-gray-50 odd:bg-white">
-                  <th>3</th>
-                  <td>Brice Swyre</td>
-                  <td>Tax Accountant</td>
-                </tr>
-              </tbody>
-            </table>
+          <div className="flex w-full overflow-x-auto p-4 px-10 sm:px-4">
+          <table className="bg-white border-gray-50 w-full">
+  <tbody>
+    <tr className="odd:bg-gray-100 even:bg-white">
+      <th className="p-2 sm:p-4">Type</th>
+      <th>Where</th>
+      <th>Description</th>
+    </tr>
+    <tr className="odd:bg-gray-100 even:bg-white">
+      <th className="p-2 sm:p-4">1</th>
+      <td>Cy Ganderton</td>
+      <td>Quality Control Specialist</td>
+    </tr>
+    <tr className="odd:bg-gray-100 even:bg-white">
+      <th className="p-2 sm:p-4">2</th>
+      <td>Hart Hagerty</td>
+      <td>Desktop Support Technician</td>
+    </tr>
+    <tr className="odd:bg-gray-100 even:bg-white">
+      <th className="p-2 sm:p-4">3</th>
+      <td>Brice Swyre</td>
+      <td>Tax Accountant</td>
+    </tr>
+    <tr className="odd:bg-gray-100 even:bg-white">
+      <th className="p-2 sm:p-4">3</th>
+      <td>Brice Swyre</td>
+      <td>Tax Accountant</td>
+    </tr>
+    <tr className="odd:bg-gray-100 even:bg-white">
+      <th className="p-2 sm:p-4">3</th>
+      <td>Brice Swyre</td>
+      <td>Tax Accountant</td>
+    </tr>
+  </tbody>
+</table>
           </div>
         </div>
         <div className="card max-w-full items-center justify-center bg-white text-black lg:p-10 border mt-4 pt-3 rounded">
           <div className="text-xl">All time Top Referral Users</div>
-          <div className="flex w-full overflow-x-auto p-4 px-10">
-          <table className="bg-white border-gray-50">
+          <div className="flex w-full overflow-x-auto p-4 px-10 sm:px-4">
+          <table className="bg-white border-gray-50 w-full">
   <tbody>
     <tr className="odd:bg-gray-100 even:bg-white">
       <th className="p-2 sm:p-4">Type</th>

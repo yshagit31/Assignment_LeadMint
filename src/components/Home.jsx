@@ -8,7 +8,7 @@ import Transactions from './Transactions';
 const Home = () => {
   
     return (
-        <div className="bg-white w-full min-h-screen flex">
+        <div className="bg-white min-h-screen flex">
         <NavBar />    
         <div className="flex-grow p-0 ">
           <Routes>

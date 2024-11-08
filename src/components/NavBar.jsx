@@ -47,17 +47,17 @@ const NavBar = () => {
 
           {/* Mobile Navigation */}
           <div className="flex md:hidden">
-            <Disclosure.Button className="inline-flex items-center justify-center p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white">
+            <Disclosure.Button className="inline-flex items-center justify-center p-2 text-gray-400 hover:bg-gray-700 hover:text-white focus:outline-none focus:ring-2 focus:ring-inset focus:ring-white transition-all duration-300 ease-in-out">
               <span className="sr-only">Open main menu</span>
               {open ? (
-                <XMarkIcon className="block h-6 w-6" aria-hidden="true" />
+                <XMarkIcon className="block h-6 w-6 transition-transform duration-300 ease-in-out" aria-hidden="true" />
               ) : (
-                <Bars3Icon className="block h-6 w-6" aria-hidden="true" />
+                <Bars3Icon className="block h-6 w-6 transition-transform duration-300 ease-in-out" aria-hidden="true" />
               )}
             </Disclosure.Button>
           </div>
 
-          <Disclosure.Panel className={`fixed inset-0 z-50 flex flex-col bg-slate-50 transition-transform transform ${open ? 'translate-x-0' : '-translate-x-full'}`}>
+          <Disclosure.Panel className={`fixed inset-0 z-50 flex flex-col bg-slate-50 transition-transform transform ${open ? 'translate-x-0' : '-translate-x-full'} duration-500 ease-in-out `}>
             <div className="flex flex-col items-start p-4 gap-4">
               <div className="flex justify-between w-full">
                 <h1 className="text-xl font-bold text-gray-800">Apprezest</h1>
