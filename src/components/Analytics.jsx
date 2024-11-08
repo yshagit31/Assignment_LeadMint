@@ -62,7 +62,7 @@ const Analytics = () => {
   };
 
   return (
-    <div className="container sm:mx-auto w-3/5 p-0 lg:p-4 bg-white">
+    <div className=" mx-auto lg:p-4 bg-white">
         <div className="flex justify-between items-center mb-10 sm:mb-5">
           <h2 className="text-2xl font-bold text-slate-800">Analytics</h2>
           <input
@@ -71,7 +71,7 @@ const Analytics = () => {
             className="border bg-slate-50 border-gray-300 rounded-lg sm:p-2 w-2/5 sm:w-1/3"
           />
         </div>
-        <div className="ms-10 sm:ms-0 grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-3 sm:mb-5">
+        <div className="grid grid-cols-1 sm:grid-cols-2 xl:grid-cols-3 gap-3 sm:mb-5">
           <div className="border border-gray-300 rounded-lg p-3 relative h-24 text-xs sm:text-base">
             <h4 className="font-semibold text-left mb-1 text-blue-800 pl-8">Total Users</h4>
             <FaUsers className="absolute top-2 left-3 text-blue-600" size={24} />
