@@ -108,85 +108,126 @@ const Analytics = () => {
         <Line data={userData} options={options} height={300} />
       </div>
       <div className="flex flex-wrap xl:flex-nowrap justify-center gap-4 ms-2 sm:ms-0 lg:my-14">
-        <div className="card max-w-full items-center justify-center bg-white text-black lg:p-10 border mt-4 pt-3 rounded">
-          <div className="text-xl">Today Top Referral Users</div>
-          <div className="flex w-full overflow-x-auto p-4 sm:px-4">
-          <table className="bg-white border-gray-50 w-full">
-  <tbody>
-    <tr className="odd:bg-gray-100 even:bg-white">
-      <th className="p-2 sm:p-4">Type</th>
-      <th>Where</th>
-      <th>Description</th>
-    </tr>
-    <tr className="odd:bg-gray-100 even:bg-white">
-      <th className="p-2 sm:p-4">1</th>
-      <td>Cy Ganderton</td>
-      <td>Quality Control Specialist</td>
-    </tr>
-    <tr className="odd:bg-gray-100 even:bg-white">
-      <th className="p-2 sm:p-4">2</th>
-      <td>Hart Hagerty</td>
-      <td>Desktop Support Technician</td>
-    </tr>
-    <tr className="odd:bg-gray-100 even:bg-white">
-      <th className="p-2 sm:p-4">3</th>
-      <td>Brice Swyre</td>
-      <td>Tax Accountant</td>
-    </tr>
-    <tr className="odd:bg-gray-100 even:bg-white">
-      <th className="p-2 sm:p-4">3</th>
-      <td>Brice Swyre</td>
-      <td>Tax Accountant</td>
-    </tr>
-    <tr className="odd:bg-gray-100 even:bg-white">
-      <th className="p-2 sm:p-4">3</th>
-      <td>Brice Swyre</td>
-      <td>Tax Accountant</td>
-    </tr>
-  </tbody>
-</table>
-          </div>
-        </div>
-        <div className="card max-w-full items-center justify-center bg-white text-black lg:p-10 border mt-4 pt-3 rounded">
-          <div className="text-xl">All time Top Referral Users</div>
-          <div className="flex w-full overflow-x-auto p-4 px-10 sm:px-4">
-          <table className="bg-white border-gray-50 w-full">
-  <tbody>
-    <tr className="odd:bg-gray-100 even:bg-white">
-      <th className="p-2 sm:p-4">Type</th>
-      <th>Where</th>
-      <th>Description</th>
-    </tr>
-    <tr className="odd:bg-gray-100 even:bg-white">
-      <th className="p-2 sm:p-4">1</th>
-      <td>Cy Ganderton</td>
-      <td>Quality Control Specialist</td>
-    </tr>
-    <tr className="odd:bg-gray-100 even:bg-white">
-      <th className="p-2 sm:p-4">2</th>
-      <td>Hart Hagerty</td>
-      <td>Desktop Support Technician</td>
-    </tr>
-    <tr className="odd:bg-gray-100 even:bg-white">
-      <th className="p-2 sm:p-4">3</th>
-      <td>Brice Swyre</td>
-      <td>Tax Accountant</td>
-    </tr>
-    <tr className="odd:bg-gray-100 even:bg-white">
-      <th className="p-2 sm:p-4">3</th>
-      <td>Brice Swyre</td>
-      <td>Tax Accountant</td>
-    </tr>
-    <tr className="odd:bg-gray-100 even:bg-white">
-      <th className="p-2 sm:p-4">3</th>
-      <td>Brice Swyre</td>
-      <td>Tax Accountant</td>
-    </tr>
-  </tbody>
-</table>
+      <div className="card max-w-full items-center justify-center bg-white text-black lg:p-10 border mt-4 pt-3 rounded">
+  <div className="text-xl">Today Top Referral Users</div>
+  <div className="flex w-full overflow-x-auto p-4 sm:px-4">
+    <table className="bg-white border-gray-50 w-full">
+      <tbody>
+        <tr className="odd:bg-gray-100 even:bg-white align-baseline">
+          <th className="text-left p-2 sm:p-6">Type</th>
+          <th className="text-left p-2 sm:p-6">Details</th>
+          <th className="text-left p-2 sm:p-6">Referral Count</th>
+        </tr>
+        <tr className="odd:bg-gray-100 even:bg-white">
+          <th className="text-left p-2 sm:p-6">1</th>
+          <td className="text-left p-2 sm:p-6">
+            Cy Ganderton
+            <br />
+            cyganderton@gmail.com
+          </td>
+          <td className="text-left p-2 sm:p-6">63</td>
+        </tr>
+        <tr className="odd:bg-gray-100 even:bg-white">
+          <th className="text-left p-2 sm:p-6">2</th>
+          <td className="text-left p-2 sm:p-6">
+            Hart Hagerty
+            <br />
+            harthagerty@gmail.com
+          </td>
+          <td className="text-left p-2 sm:p-6">58</td>
+        </tr>
+        <tr className="odd:bg-gray-100 even:bg-white">
+          <th className="text-left p-2 sm:p-6">3</th>
+          <td className="text-left p-2 sm:p-6">
+            Brice Swyre
+            <br />
+            briceswyre@gmail.com
+          </td>
+          <td className="text-left p-2 sm:p-6">17</td>
+        </tr>
+        <tr className="odd:bg-gray-100 even:bg-white">
+          <th className="text-left p-2 sm:p-6">4</th>
+          <td className="text-left p-2 sm:p-6">
+            Nann U
+            <br />
+            nannu@gmail.com
+          </td>
+          <td className="text-left p-2 sm:p-6">12</td>
+        </tr>
+        <tr className="odd:bg-gray-100 even:bg-white">
+          <th className="text-left p-2 sm:p-6">5</th>
+          <td className="text-left p-2 sm:p-6">
+            Mr Rendom
+            <br />
+            mrrendom@gmail.com
+          </td>
+          <td className="text-left p-2 sm:p-6">7</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
 
-          </div>
-        </div>
+<div className="card max-w-full items-center justify-center bg-white text-black lg:p-10 border mt-4 pt-3 rounded">
+  <div className="text-xl">All-time Top Referral Users</div>
+  <div className="flex w-full overflow-x-auto p-4 sm:px-4">
+    <table className="bg-white border-gray-50 w-full">
+      <tbody>
+        <tr className="odd:bg-gray-100 even:bg-white">
+          <th className="text-left p-2 sm:p-6">Type</th>
+          <th className="text-left p-2 sm:p-6">Details</th>
+          <th className="text-left p-2 sm:p-6">Referral Count</th>
+        </tr>
+        <tr className="odd:bg-gray-100 even:bg-white">
+          <th className="text-left p-2 sm:p-6">1</th>
+          <td className="text-left p-2 sm:p-6">
+            Business
+            <br />
+            business@gmail.com
+          </td>
+          <td className="text-left p-2 sm:p-6">5911</td>
+        </tr>
+        <tr className="odd:bg-gray-100 even:bg-white">
+          <th className="text-left p-2 sm:p-6">2</th>
+          <td className="text-left p-2 sm:p-6">
+            Thunger Subh
+            <br />
+            thungersubh@gmail.com
+          </td>
+          <td className="text-left p-2 sm:p-6">5761</td>
+        </tr>
+        <tr className="odd:bg-gray-100 even:bg-white">
+          <th className="text-left p-2 sm:p-6">3</th>
+          <td className="text-left p-2 sm:p-6">
+            Sandeep Kumar
+            <br />
+            sandeepkumar@gmail.com
+          </td>
+          <td className="text-left p-2 sm:p-6">3546</td>
+        </tr>
+        <tr className="odd:bg-gray-100 even:bg-white">
+          <th className="text-left p-2 sm:p-6">4</th>
+          <td className="text-left p-2 sm:p-6">
+            Usha Brahma
+            <br />
+            ushahbrahma@gmail.com
+          </td>
+          <td className="text-left p-2 sm:p-6">3042</td>
+        </tr>
+        <tr className="odd:bg-gray-100 even:bg-white">
+          <th className="text-left p-2 sm:p-6">5</th>
+          <td className="text-left p-2 sm:p-6">
+            Rupesh Yadav
+            <br />
+            rupeshyadav@gmail.com
+          </td>
+          <td className="text-left p-2 sm:p-6">2208</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
+
       </div>
     </div>
   );
