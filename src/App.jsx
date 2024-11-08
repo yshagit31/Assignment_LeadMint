@@ -4,7 +4,7 @@ import Login from './components/Login'
 import Home from './components/Home'
  function App() {
   return (
-    <div className='bg-slate-950 p-0 sm:p-3'>
+    <div className='bg-slate-950'>
     <Router >
       <Routes>
           <Route path="/"  element= {<Register/>}> </Route>

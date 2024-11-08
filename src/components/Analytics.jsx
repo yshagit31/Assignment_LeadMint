@@ -107,8 +107,8 @@ const Analytics = () => {
         <h4 className='text-slate-600'>User Statistics Line Chart</h4>
         <Line data={userData} options={options} height={300} />
       </div>
-      <div className="flex flex-wrap xl:flex-nowrap justify-center gap-4 ms-2 sm:ms-0 lg:my-14">
-        <div className="card max-w-full items-center justify-center bg-white text-black lg:p-10 border mt-4 pt-3 rounded">
+      <div className="flex flex-wrap xl:flex-nowrap justify-center gap-4 mx-2 sm:mx-0 lg:my-14">
+        <div className="card max-w-full items-center justify-center bg-white text-black lg:p-8 border mt-4 pt-3 rounded">
           <div className="text-xl">Today Top Referral Users</div>
           <div className="flex w-full overflow-x-auto p-4 sm:px-4">
             <table className="bg-white border-gray-50 w-full">
